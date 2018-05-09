@@ -1,0 +1,16 @@
+1 descargar el proyecto android
+		a https://github.com/josejapch/PriceConverter
+		b https://github.com/AntennaPod/AntennaPod
+		c https://github.com/citiususc/calendula
+		d https://github.com/SecUSo/privacy-friendly-todo-list
+		
+2 Montar la aplicacion en la carpeta temp
+3 Comentarear con un # los mutantes que no quiero que se generen (archivo operators.properties)
+4 Correr la siguiente linea de  (java -jar target\MDroidPlus-1.0.0.jar libs4ast\ tmp\privacy-friendly-todo-list\app\src\main\ app tmp\mutants\ . true)
+5 Seleccionar cada mutante y remplazarlo en la aplicacion
+6 Correr las pruebas de la aplicacion e identificar cuales de los mutantes se mataron
+7 Compilar la aplicacion con el mutante
+8 Indentificar si permite que se compile
+	- Si se compila (Hacer un random a la aplicación)
+
+
